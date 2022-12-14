@@ -3,3 +3,20 @@
 #nav {
   background-color: black;
 }
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+/*end register */
+
+#footer img{
+    width: 250px;
+    height: 100px;
+}
