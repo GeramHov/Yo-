@@ -1,7 +1,13 @@
 /* NAVBAR */
 
-#nav {
+#navbar {
   background-color: black;
+  position: fixed;
+  height: 5rem;
+}
+
+#navigation {
+  position: fixed;
 }
 
 /* Add a blue text color to links */
@@ -16,19 +22,9 @@ a {
 }
 /*end register */
 
-#footer img {
-  width: 250px;
-  height: 100px;
-}
-
 #feature img {
   width: 300px;
   height: 600px;
-}
-
-#winanewphone img {
-  width: 400px;
-  height: 200px;
 }
 
 /*register bar*/
@@ -92,7 +88,6 @@ a {
 }
 /*end register */
 
-#footer img {
-  width: 250px;
-  height: 100px;
+footer {
+  background-color: black;
 }
