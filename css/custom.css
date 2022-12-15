@@ -1,9 +1,8 @@
 /*GENERAL*/
 
-a:visited{
+a:visited {
   color: none;
 }
-
 
 /*NAVBAR */
 
@@ -24,7 +23,11 @@ footer {
 }
 
 #floatingInputGrid {
-  height: 39%;
+  height: 50%;
+}
+
+#submit {
+  height: 51%;
 }
 
 .navitem {
@@ -53,7 +56,6 @@ a {
 }
 
 /*end register */
-
 
 #feature img {
   max-width: 300px;
@@ -121,36 +123,30 @@ a {
 }
 /*end register */
 
-
-@media screen and (max-width: 1000px ) {
-  #benefice img {width: 75%; height: 75%;}
+@media screen and (max-width: 1000px) {
+  #benefice img {
+    width: 75%;
+    height: 75%;
+  }
 }
 
-@media all and (max-width:480px)
-{
-.container text-white
-{
-  width: auto;
-  height: auto ;
-}
+@media all and (max-width: 480px) {
+  .container text-white {
+    width: auto;
+    height: auto;
+  }
 }
 
-@media all and (min-width:480px) and (max-width:780px)
-{
- .container text-white
-{
-  width: auto;
-  height: auto;
-}
-  
+@media all and (min-width: 480px) and (max-width: 780px) {
+  .container text-white {
+    width: auto;
+    height: auto;
+  }
 }
 
-@media all and (min-width:780px) and (max-width:979px)
-{
-.container text-white
-{
-  width: auto;
-  height: auto;
-}
-  
+@media all and (min-width: 780px) and (max-width: 979px) {
+  .container text-white {
+    width: auto;
+    height: auto;
+  }
 }
