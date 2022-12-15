@@ -56,8 +56,8 @@ a {
 
 
 #feature img {
-  width: 300px;
-  height: 600px;
+  max-width: 300px;
+  max-height: 600px;
 }
 
 /*register bar*/
