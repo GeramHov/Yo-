@@ -5,6 +5,7 @@
   background-color: black;
   position: fixed;
   height: 5rem;
+  z-index: 1;
 }
 
 #navigation {
@@ -34,11 +35,10 @@ a {
 /*end register */
 
 /*Partie Bénéfice*/
-.benefice2img{
+.benefice2img {
   transform: scaleX(-1);
 }
 /*FIN partie Bénéfice*/
-
 
 #feature img {
   width: 300px;
